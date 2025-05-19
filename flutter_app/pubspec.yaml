@@ -1,0 +1,26 @@
+name: flutter_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.3 # For making HTTP requests
+  provider: ^6.0.0 # For state management
+  shared_preferences: ^2.0.0 # For local storage
+  flutter_secure_storage: ^5.0.0 # For securely storing sensitive data
+  cupertino_icons: ^1.0.8 # For iOS style icons
+  confetti: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0 # For linting and code quality
+
+flutter:
+  uses-material-design: true

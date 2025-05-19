@@ -1,0 +1,7 @@
+.env
+.env.production
+.DS_Store
+pw.txt
+
+node_modules/
+backend/node_modules/
